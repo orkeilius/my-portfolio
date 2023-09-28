@@ -45,7 +45,6 @@ export default function Starfield() {
                     z: Math.random() * canvas.width,
                     o: '0.' + Math.floor(Math.random() * 99) + 1
                 };
-                console.log(star.x)
                 stars.push(star);
             }
         }
