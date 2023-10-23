@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <div className="w-[700px] p-6 bg-gray-900 rounded-[3em] shadow-[-15px_15px_100px_5px_rgba(188,0,191,0.15)]">
+        <div className="w-[700px] max-w-[33%] h-fit p-6 bg-gray-900 rounded-[3em] shadow-[-15px_15px_100px_5px_rgba(188,0,191,0.15)]">
             <div className="flex ">
 
                 <div className="rounded-full aspect-square w-32 h-32 bg-slate-700 "></div>
