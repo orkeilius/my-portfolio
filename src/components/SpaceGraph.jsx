@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { SiHtml5, SiCss3, SiJavascript, SiSpring, SiPhp, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql } from "react-icons/si";
+import { SiHtml5, SiCss3,SiTailwindcss, SiJavascript, SiSvelte, SiSpring, SiPhp,SiGodotengine, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql } from "react-icons/si";
 import { IconContext } from "react-icons";
 
 export default function SpaceGraph() {
@@ -10,19 +10,22 @@ export default function SpaceGraph() {
     const nodesInfo = [
         { icon: <SiHtml5 />, color: "#E34F26", x: { freq: 2, offset: 1 }, y: { freq: 4, offset: 5 } },
         { icon: <SiCss3 />, color: "#1572B6", x: { freq: 3, offset: 10 }, y: { freq: 2, offset: 7 } },
+        { icon: <SiTailwindcss />, color: "#06B6D4", x: { freq: 1, offset: 100 }, y: { freq: 7, offset: 70 } }, 
+        { icon: <SiSvelte />, color: "#FF3E00", x: { freq: 6, offset: 40 }, y: { freq: 8, offset: 145 } },
         { icon: <SiSpring />, color: "#6DB33F", x: { freq: 6, offset: 4 }, y: { freq: 7, offset: 15 } },
         { icon: <SiPhp />, color: "#777BB4", x: { freq: 8, offset: 20 }, y: { freq: 16, offset: 90 } },
         { icon: <SiPython />, color: "#3776AB", x: { freq: 5, offset: 29 }, y: { freq: 6, offset: 93 } },
         { icon: <SiGit />, color: "#F05032", x: { freq: 6, offset: 41 }, y: { freq: 8, offset: 20 } },
         { icon: <SiSupabase />, color: "#3FCF8E", x: { freq: 2, offset: 30 }, y: { freq: 1, offset: 37 } },
         { icon: <SiReact />, color: "#0088CC", x: { freq: 8, offset: 25 }, y: { freq: 12, offset: 100 } },
-        { icon: <SiTypescript />, color: "#3178C6", x: { freq: 15, offset: 6 }, y: { freq: 16, offset: 150 } },
+        { icon: <SiTypescript />, color: "#3178C6", x: { freq: 12, offset: 6 }, y: { freq: 16, offset: 150 } },
         { icon: <SiJavascript />, color: "#F7DF1E", x: { freq: 3, offset: 294 }, y: { freq: 4, offset: 3 } },
         { icon: <SiLeetcode />, color: "#FFA116", x: { freq: 7, offset: 2024 }, y: { freq: 5, offset: 203 } },
         { icon: <SiUnity />, color: "#000", x: { freq: 6, offset: 1224 }, y: { freq: 2, offset: 531 } },
         { icon: <SiPopos />, color: "#48B9C7", x: { freq: 1, offset: 4 }, y: { freq: 7, offset: 531 } },
         { icon: <SiLinux />, color: "#000", x: { freq: 6, offset: 1224 }, y: { freq: 2, offset: 1531 } },
-        { icon: <SiPostgresql />, color: "#4169E1", x: { freq: 6, offset: 1224 }, y: { freq: 2, offset: 1531 } },
+        { icon: <SiPostgresql />, color: "#4169E1", x: { freq: 6, offset: 1224 }, y: { freq: 3, offset: 1431 } },
+        { icon: <SiGodotengine />, color: "#478CBF", x: { freq: 3, offset: 170 }, y: { freq: 6, offset: 420 } },
     ]
     const [nodeOpen, setNodeOpen] = useState(new Array(nodesInfo.length).fill(false))
 
