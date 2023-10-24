@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer custom {
+    html{
+        scroll-behavior: smooth;
+    }
+    
     #root,
     body {
         min-height: 100vh;

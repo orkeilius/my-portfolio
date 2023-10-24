@@ -92,7 +92,7 @@ function ProjectElem({ project }) {
 
 
     return (
-        <div className="w-full m-2 h-fit w-[calc(33%-0.75em)]" style={{ "--color1": project.color + "11", "--color2": project.color + "77", }} >
+        <div id="project" className="w-full m-2 h-fit w-[calc(33%-0.75em)]" style={{ "--color1": project.color + "11", "--color2": project.color + "77", }} >
             <div className="bg-[#1E152A11] group hover:bg-slate-800 bg-opacity-20 flex flex-col transition-all overflow-hidden duration-500 backdrop-blur-sm hover:backdrop-blur-2xl p-6 h-fit w-full rounded-xl shadow-[-15px_25px_100px_15px_#FFFFFF0F] ">
                 <p className="text-xl ml-4">{project.title}</p>
                 <p className="ml-4 font-extralight">{project.date}</p>

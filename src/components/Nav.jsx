@@ -4,7 +4,7 @@ export default function Nav() {
             <nav className='w-full h-12 flex content-center'>
                 <NavButton text="acceuil" link="/" />
                 <NavButton text="veille" link="/" />
-                <NavButton text="projet" link="/"/>
+                <NavButton text="projet" link="#project"/>
             </nav>
             <div className="mb-6 w-full h-[1px] bg-[linear-gradient(90deg,rgba(0,0,0,0)0%,rgba(255,255,255,1)1%,rgba(255,255,255,1)72%,rgba(255,255,255,1)99%,rgba(0,0,0,0)100%);]" />
         </>
