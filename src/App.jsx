@@ -24,7 +24,8 @@ function App() {
           </div>
         </div>
       <Timeline />
-      <Project />
+        <Project />
+        <div className='h-screen' />
     </div>
     </>
   )
