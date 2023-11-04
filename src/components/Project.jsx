@@ -8,50 +8,54 @@ export default function Project() {
         {
             title: "discrotte",
             date: "2019",
-            description: "Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. ",
+            description: "Copie simplifiée de discord pour un project de classe en java spring et react",
             color: "#AF42AE",
             icon: [
                 { icon: <SiSpring />, color: "#6DB33F" },
                 { icon: <SiReact />, color: "#0088CC" },
                 { icon: <SiTailwindcss />, color: "#06B6D4" }
             ],
+            source:"https://github.com/orkeilius/discrotte"
         },
         {
             title: "little-rtc",
             date: "2019",
-            description: "Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. ",
+            description: "Site de chat en peer to peer pour tester la technologie webrtc et svelte",
             color: "#AF42AE",
             icon: [
                 { icon: <SiSvelte />, color: "#FF3E00" },
                 { icon: <SiTailwindcss />, color: "#06B6D4" },
                 { icon: <SiTypescript />, color: "#3178C6" }
             ],
-            link:"e",
-            source:"e"
+            link:"https://little-rtc.vercel.app/",
+            source:"https://github.com/orkeilius/little-rtc"
         },
         {
             title: "voiture pisicne",
             date: "2019",
-            description: "Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. ",
+            description: "Site vitrine fictif et forum internet en php en project de groupe",
             color: "#AF42AE",
             icon: [
                 { icon: <SiPhp />, color: "#6DB33F" },
                 { icon: <SiPostgresql />, color: "#0088CC" },
             ],
+            source:"https://github.com/orkeilius/voiture-piscine",
         },
         {
-            title: "infinite minesweppe",
+            title: "infinite minesweeper",
             date: "2019",
-            description: "Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. ",
+            description: "Démineur fait en python permetant de faire des partie avec sur de grande grille",
             color: "#AF42AE",
             icon: [{ icon: <SiPython />, color: "#3776AB" }],
+            link:"https://a-random-baguette.itch.io/infinite-mineswepper",
         },
         {
             title: "T-rex game plus",
             date: "2019",
-            description: "Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. Fugiat dolor laborum proident sint. ",
+            description: "Copie amélioré du jeu du dinosaure en python ",
             color: "#AF42AE",
             icon: [{ icon: <SiPython />, color: "#3776AB" }],
+            link:"https://a-random-baguette.itch.io/t-rex-game-plus",
         },
 
     ]
@@ -111,7 +115,7 @@ function ProjectElem({ project }) {
                 <p className="ml-4 text-justify duration-1000 overflow-hidden transition-all text-ellipsis ">{project.description}</p>
                 <div className="max-h-0 transition-all group-hover:max-h-48 duration-700 overflow-hidden">
                     {project.link && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.link}> Link <BiLinkExternal/></a> }
-                    {project.source && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.link}> Source <BiLinkExternal/></a> }
+                    {project.source && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.source}> Source <BiLinkExternal/></a> }
                 </div>
             </div>
         </div>
