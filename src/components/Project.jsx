@@ -18,6 +18,18 @@ export default function Project() {
             source:"https://github.com/orkeilius/discrotte"
         },
         {
+            title: "my exercice code",
+            date: "2020-2023",
+            description: "Repo contenant tout les exercice de code que j'ai fait sur leetcode, coding game, france-ioi et autre ",
+            color: "#AF42AE",
+            icon: [
+                { icon: <SiTypescript />, color: "#3178C6" },
+                { icon: <SiJavascript />, color: "#F7DF1E" },
+                { icon: <SiPython />, color: "#3776AB" }
+            ],
+            source:"https://github.com/orkeilius/my-exercice-code"
+        },
+        {
             title: "little-rtc",
             date: "2019",
             description: "Site de chat en peer to peer pour tester la technologie webrtc et svelte",
@@ -40,6 +52,14 @@ export default function Project() {
                 { icon: <SiPostgresql />, color: "#0088CC" },
             ],
             source:"https://github.com/orkeilius/voiture-piscine",
+        },
+        {
+            title: "alarm discord bot",
+            date: "2022",
+            description: "Bot discord sur rasberry qui permet de gerer un petit systeme d'alarme et de prendre des photos",
+            color: "#AF42AE",
+            icon: [{ icon: <SiPython />, color: "#3776AB" }],
+            link:"https://github.com/orkeilius/alarm_discord_bot",
         },
         {
             title: "infinite minesweeper",
