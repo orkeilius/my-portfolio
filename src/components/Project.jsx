@@ -59,7 +59,7 @@ export default function Project() {
             description: "Bot discord sur rasberry qui permet de gerer un petit systeme d'alarme et de prendre des photos",
             color: "#AF42AE",
             icon: [{ icon: <SiPython />, color: "#3776AB" }],
-            link:"https://github.com/orkeilius/alarm_discord_bot",
+            source:"https://github.com/orkeilius/alarm_discord_bot",
         },
         {
             title: "infinite minesweeper",
@@ -134,7 +134,7 @@ function ProjectElem({ project }) {
                 </div>
                 <p className="ml-4 text-justify duration-1000 overflow-hidden transition-all text-ellipsis ">{project.description}</p>
                 <div className="max-h-0 transition-all group-hover:max-h-48 duration-700 overflow-hidden">
-                    {project.link && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.link}> Link <BiLinkExternal/></a> }
+                    {project.link && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.link}> Lien <BiLinkExternal/></a> }
                     {project.source && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.source}> Source <BiLinkExternal/></a> }
                 </div>
             </div>
