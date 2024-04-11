@@ -1,3 +1,5 @@
+import { BsFileEarmarkPdf } from "react-icons/bs";
+
 export default function Hero() {
     return (
         <div className="w-[700px] max-w-[50%] h-fit p-6 bg-gray-900 rounded-[3em] shadow-[-15px_15px_100px_5px_rgba(188,0,191,0.15)]">
@@ -10,9 +12,13 @@ export default function Hero() {
                 </div>
             </div>
             <div className="text-justify my-5">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore incidunt deserunt voluptas, illum, blanditiis sit quis aut quasi aliquam iusto eum debitis, fugiat voluptatem veniam. Totam mollitia aliquid repellendus fugiat.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis odio ex quaerat sunt porro voluptatibus omnis possimus tenetur laboriosam provident eos obcaecati dolor, veniam cumque! Ullam laboriosam culpa voluptatem molestiae!
+                Je m'appelle Matthieu De Oliveira. J'ai 19 ans, Je cherche une entreprise en alternance pour faire
+                reconnaître mes compétences en développement et en faire mon métier
             </div>
+            <a className=" p-2 px-6 w-fit flex content-center justify-center  bg-red-600 rounded-xl hover:bg-red-800 transition-all duration-1000">
+                pdf E4
+                <BsFileEarmarkPdf className="mt-1 ml-1" />
+            </a>
         </div>
     )
 }
