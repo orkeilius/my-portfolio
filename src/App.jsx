@@ -15,7 +15,7 @@ function App() {
       <div className='bg-[linear-gradient(135deg,rgba(28,26,65,0.7)0%,rgba(17,24,39,0.7)100%)] min-h-screen text-white font-sans'>
       <div className='min-w-80 w-3/4 mx-auto  min-h-[90vh] mb-40 '>
           <Nav />
-          <div className='p-4 flex '>
+          <div className='p-4 h-[70vh] flex '>
             <Hero />
             <div className='grow p-9'>
               <SpaceGraph />

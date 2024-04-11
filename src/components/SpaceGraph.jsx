@@ -141,7 +141,7 @@ export default function SpaceGraph() {
                     )
                 })}
             </div>
-            <canvas ref={canvasRef} className="w-full h-full" />
+            <canvas ref={canvasRef} height={500} className="w-full " />
         </div>
 
     )
