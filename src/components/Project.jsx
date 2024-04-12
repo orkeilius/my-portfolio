@@ -1,10 +1,42 @@
-import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiSvelte, SiSpring, SiPhp, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql } from "react-icons/si";
+import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiSvelte, SiSpring, SiPhp, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql, SiGodotengine,SiWordpress ,SiElementor } from "react-icons/si";
 import { BiLinkExternal } from "react-icons/bi";
 import { IconContext } from "react-icons";
 
 export default function Project() {
 
     const projects = [
+        {
+            title: "erasableImage",// private
+            date: "2023",
+            description: "Repo Privé — widget WordPress Elementor qui permet de créer et personnaliser des images, et dégradé effaçable",
+            color: "#AF42AE",
+            icon: [
+                { icon: <SiWordpress />, color: "#3776AB" },
+                { icon: <SiElementor />, color: "#92003B" },
+            ],
+            source: "https://github.com/orkeilius/erasableImage-wpPlugin"
+        },
+        {
+            title: "Py-calc",
+            date: "2023",
+            description: "Une calculatrice avec des fonctions scientifiques disponible sur Windows et Linux",
+            color: "#AF42AE",
+            icon: [{ icon: <SiPython />, color: "#3776AB" }],
+            link: "https://github.com/orkeilius/py-calc/releases/tag/public",
+            source: "https://github.com/orkeilius/py-calc"
+        },
+        {
+            title: "Rogue-invaders",
+            date: "2023",
+            description: "Un remake de space-invaders sur navigateur en plus d'un mode de jeu rogue-like avec un système de pouvoir et des scores en ligne",
+            color: "#AF42AE",
+            icon: [
+                { icon: <SiGodotengine />, color: "#478CBF" },
+                { icon: <SiSupabase />, color: "#3FCF8E" }
+            ],
+            link: "https://a-random-baguette.itch.io/rogue",
+            source: "https://github.com/orkeilius/rogue-invaders"
+        },
         {
             title: "discrotte",
             date: "2019",
@@ -15,7 +47,7 @@ export default function Project() {
                 { icon: <SiReact />, color: "#0088CC" },
                 { icon: <SiTailwindcss />, color: "#06B6D4" }
             ],
-            source:"https://github.com/orkeilius/discrotte"
+            source: "https://github.com/orkeilius/discrotte"
         },
         {
             title: "my exercice code",
@@ -27,7 +59,7 @@ export default function Project() {
                 { icon: <SiJavascript />, color: "#F7DF1E" },
                 { icon: <SiPython />, color: "#3776AB" }
             ],
-            source:"https://github.com/orkeilius/my-exercice-code"
+            source: "https://github.com/orkeilius/my-exercice-code"
         },
         {
             title: "little-rtc",
@@ -39,8 +71,8 @@ export default function Project() {
                 { icon: <SiTailwindcss />, color: "#06B6D4" },
                 { icon: <SiTypescript />, color: "#3178C6" }
             ],
-            link:"https://little-rtc.vercel.app/",
-            source:"https://github.com/orkeilius/little-rtc"
+            link: "https://little-rtc.vercel.app/",
+            source: "https://github.com/orkeilius/little-rtc"
         },
         {
             title: "voiture pisicne",
@@ -51,7 +83,7 @@ export default function Project() {
                 { icon: <SiPhp />, color: "#6DB33F" },
                 { icon: <SiPostgresql />, color: "#0088CC" },
             ],
-            source:"https://github.com/orkeilius/voiture-piscine",
+            source: "https://github.com/orkeilius/voiture-piscine",
         },
         {
             title: "alarm discord bot",
@@ -59,7 +91,7 @@ export default function Project() {
             description: "Bot discord sur rasberry qui permet de gerer un petit systeme d'alarme et de prendre des photos",
             color: "#AF42AE",
             icon: [{ icon: <SiPython />, color: "#3776AB" }],
-            source:"https://github.com/orkeilius/alarm_discord_bot",
+            source: "https://github.com/orkeilius/alarm_discord_bot",
         },
         {
             title: "infinite minesweeper",
@@ -67,7 +99,7 @@ export default function Project() {
             description: "Démineur fait en python permetant de faire des partie avec sur de grande grille",
             color: "#AF42AE",
             icon: [{ icon: <SiPython />, color: "#3776AB" }],
-            link:"https://a-random-baguette.itch.io/infinite-mineswepper",
+            link: "https://a-random-baguette.itch.io/infinite-mineswepper",
         },
         {
             title: "T-rex game plus",
@@ -75,9 +107,8 @@ export default function Project() {
             description: "Copie amélioré du jeu du dinosaure en python ",
             color: "#AF42AE",
             icon: [{ icon: <SiPython />, color: "#3776AB" }],
-            link:"https://a-random-baguette.itch.io/t-rex-game-plus",
-        },
-
+            link: "https://a-random-baguette.itch.io/t-rex-game-plus",
+        }
     ]
 
     // color="#1E152A" color="#A5C882"
@@ -93,13 +124,13 @@ function ProjectRenderer({ projects }) {
     var col = [[], [], []]
     console.log(projects)
     for (let i = 0; i < 3; i++) {
-        for (let j = i; j < projects.length; j+=3) {
+        for (let j = i; j < projects.length; j += 3) {
             col[i].push(projects[j])
         }
     }
     return (
         <>
-            {col.map((elem,index) => {
+            {col.map((elem, index) => {
                 return (
                     <div key={index} className="m-1">
                         {elem.map((elem, index) => {
@@ -134,8 +165,8 @@ function ProjectElem({ project }) {
                 </div>
                 <p className="ml-4 text-justify duration-1000 overflow-hidden transition-all text-ellipsis ">{project.description}</p>
                 <div className="max-h-0 transition-all group-hover:max-h-48 duration-700 overflow-hidden">
-                    {project.link && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.link}> Lien <BiLinkExternal/></a> }
-                    {project.source && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.source}> Source <BiLinkExternal/></a> }
+                    {project.link && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.link}> Lien <BiLinkExternal /></a>}
+                    {project.source && <a className="border m-2 font-bold rounded-md ml-auto p-1 text-md whitespace-nowrap flex w-fit" href={project.source}> Source <BiLinkExternal /></a>}
                 </div>
             </div>
         </div>
