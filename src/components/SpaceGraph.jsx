@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { SiHtml5, SiCss3,SiTailwindcss, SiJavascript, SiSvelte, SiSpring, SiPhp,SiGodotengine, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql } from "react-icons/si";
+import { SiHtml5, SiCss3,SiTailwindcss, SiJavascript, SiSvelte, SiSpring, SiPhp,SiGodotengine, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql,SiWordpress ,SiElementor, SiFedora  } from "react-icons/si";
 import { IconContext } from "react-icons";
 
 export default function SpaceGraph() {
@@ -26,6 +26,9 @@ export default function SpaceGraph() {
         { icon: <SiLinux />, color: "#000", x: { freq: 6, offset: 1224 }, y: { freq: 2, offset: 1531 } },
         { icon: <SiPostgresql />, color: "#4169E1", x: { freq: 6, offset: 1224 }, y: { freq: 3, offset: 1431 } },
         { icon: <SiGodotengine />, color: "#478CBF", x: { freq: 3, offset: 170 }, y: { freq: 6, offset: 420 } },
+        { icon: <SiWordpress />, color: "#3776AB", x: { freq: 1, offset: 115 }, y: { freq: 7, offset: 740 } },
+        { icon: <SiElementor />, color: "#92003B", x: { freq: 3, offset: 570 }, y: { freq: 4, offset: 420 } },
+        { icon: <SiFedora />, color: "#51A2DA", x: { freq: 3, offset: 570 }, y: { freq: 4, offset: 420 } },
     ]
     const [nodeOpen, setNodeOpen] = useState(new Array(nodesInfo.length).fill(false))
 
