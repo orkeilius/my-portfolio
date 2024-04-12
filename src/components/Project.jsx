@@ -1,4 +1,4 @@
-import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiSvelte, SiSpring, SiPhp, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql, SiGodotengine,SiWordpress ,SiElementor } from "react-icons/si";
+import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiSvelte, SiSpring, SiPhp, SiPython, SiGit, SiSupabase, SiReact, SiTypescript, SiLeetcode, SiUnity, SiLinux, SiPopos, SiPostgresql, SiGodotengine, SiWordpress, SiElementor } from "react-icons/si";
 import { BiLinkExternal } from "react-icons/bi";
 import { IconContext } from "react-icons";
 
