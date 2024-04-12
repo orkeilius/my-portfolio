@@ -127,7 +127,7 @@ export default function SpaceGraph() {
 
 
     return (
-        <div className="h-full box-border">
+        <div className="h-[50vh] lg:h-[70vh] box-border">
             <div ref={warpRef} className="" >
 
                 {nodesInfo.map((node, index) => {
