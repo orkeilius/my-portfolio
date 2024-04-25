@@ -6,7 +6,7 @@ export default function Project() {
 
     const projects = [
         {
-            title: "erasableImage",// private
+            title: "ErasableImage",// private
             date: "2023",
             description: "Repo Privé — widget WordPress Elementor qui permet de créer et personnaliser des images, et dégradé effaçable",
             color: "#AF42AE",
@@ -38,7 +38,7 @@ export default function Project() {
             source: "https://github.com/orkeilius/rogue-invaders"
         },
         {
-            title: "discrotte",
+            title: "Discrotte",
             date: "2019",
             description: "Copie simplifiée de discord pour un project de classe en java spring et react",
             color: "#AF42AE",
@@ -50,7 +50,7 @@ export default function Project() {
             source: "https://github.com/orkeilius/discrotte"
         },
         {
-            title: "my exercice code",
+            title: "My exercice code",
             date: "2020-2023",
             description: "Repo contenant tout les exercice de code que j'ai fait sur leetcode, coding game, france-ioi et autre ",
             color: "#AF42AE",
@@ -62,7 +62,7 @@ export default function Project() {
             source: "https://github.com/orkeilius/my-exercice-code"
         },
         {
-            title: "little-rtc",
+            title: "Little-rtc",
             date: "2019",
             description: "Site de chat en peer to peer pour tester la technologie webrtc et svelte",
             color: "#AF42AE",
@@ -75,7 +75,7 @@ export default function Project() {
             source: "https://github.com/orkeilius/little-rtc"
         },
         {
-            title: "voiture pisicne",
+            title: "Voiture piscine",
             date: "2019",
             description: "Site vitrine fictif et forum internet en php en project de groupe",
             color: "#AF42AE",
@@ -86,7 +86,7 @@ export default function Project() {
             source: "https://github.com/orkeilius/voiture-piscine",
         },
         {
-            title: "alarm discord bot",
+            title: "Alarm discord bot",
             date: "2022",
             description: "Bot discord sur rasberry qui permet de gerer un petit systeme d'alarme et de prendre des photos",
             color: "#AF42AE",
@@ -94,7 +94,7 @@ export default function Project() {
             source: "https://github.com/orkeilius/alarm_discord_bot",
         },
         {
-            title: "infinite minesweeper",
+            title: "Infinite minesweeper",
             date: "2019",
             description: "Démineur fait en python permetant de faire des partie avec sur de grande grille",
             color: "#AF42AE",
