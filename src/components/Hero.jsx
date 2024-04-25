@@ -15,10 +15,16 @@ export default function Hero() {
                 Je m'appelle Matthieu De Oliveira. J'ai 19 ans, Je cherche une entreprise en alternance pour faire
                 reconnaître mes compétences en développement et en faire mon métier
             </div>
-            <a className=" p-2 px-6 w-fit flex content-center justify-center  bg-red-600 rounded-xl hover:bg-red-800 transition-all duration-1000">
-                pdf E4
-                <BsFileEarmarkPdf className="mt-1 ml-1" />
-            </a>
+            <div className="flex">
+                <a href="e4.pdf" className=" p-2 px-6 w-fit flex content-center justify-center  bg-blue-600 rounded-xl hover:bg-blue-800 transition-all duration-1000 m-1">
+                    Compétence
+                    <BsFileEarmarkPdf className="mt-1 ml-1" />
+                </a>
+                <a href="cv.pdf" className=" p-2 px-6 w-fit flex content-center justify-center  bg-red-600 rounded-xl hover:bg-red-800 transition-all duration-1000 m-1">
+                    CV
+                    <BsFileEarmarkPdf className="mt-1 ml-1" />
+                </a>
+            </div>
         </div>
     )
 }
