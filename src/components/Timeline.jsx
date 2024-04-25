@@ -6,10 +6,12 @@ export default function Timeline() {
         <div className="mx-auto max-w-5xl flex ">
             <div className="timeline-gradient  min-h-screen w-[5px] mx-12 " />
             <div className="w-full">
-
-                <ElemTimeline title="bts sio 2eme année" date="depuis septembre 2023" description="aled" color="#52b788" ping/>
-                <ElemTimeline title="Erasmus at trinity university" date="mai-juillet 2023" description="Stage erasmus a l'university trinity a dublin" color="#3E92CC" />
-                <ElemTimeline title="bts sio 1eme année" date="2022 - 2023" description="aled" color="#C200FB" />
+                <ElemTimeline title="Stage a lmweb" date="janvier-février 2024" description="Création de sites web et développement de plugins wordpress en javascript et php pour les différents clients de l'agence" color="#3E92CC" />
+                <ElemTimeline title="bts sio 2eme année" date="depuis septembre 2023" description="" color="#52b788" ping/>
+                <ElemTimeline title="Erasmus a l'université trinity a Dublin" date="mai-juillet 2023" description="Erasmus création d'un site web permettent de créer, modifier
+et partager des portfolio avec un système de gestion de
+classe pour les professeurs du labo des langues" color="#3E92CC" />
+                <ElemTimeline title="bts sio 1eme année" date="2022 - 2023" description="" color="#C200FB" />
                 <ElemTimeline title="bac pro sn" date="2019 - 2022" description="" color="#EC7D10" />
                 <ElemTimeline title="brevet d'initiation a l'aéronotique" date="2019" description="" color="#AAAAAA" />
             </div>
