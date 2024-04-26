@@ -5,7 +5,9 @@ export default function Hero() {
         <div className="w-[90%] lg:w-[500px]  h-fit p-6 bg-gray-900 rounded-[3em] shadow-[-15px_15px_100px_5px_rgba(188,0,191,0.15)]">
             <div className="flex ">
 
-                <div className="rounded-full aspect-square w-32 h-32 bg-slate-700 "></div>
+                <div className="rounded-full aspect-square w-32 h-32 bg-slate-700 ">
+                    <img src="/image.png" className="rounded-full" />
+                </div>
                 <div className="w-full">
                     <h1 className="text-4xl ml-4">Matthieu <br />De oliveira</h1>
                     <p className="ml-4 font-light text-lg text-indigo-500 hover:text-emerald-500 transition-all duration-700">Étudiant en bts sio</p>
