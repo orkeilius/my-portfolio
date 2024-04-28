@@ -2,7 +2,7 @@ export default function Nav() {
     return (
         <>
             <nav className='w-full h-12 flex content-center'>
-                <NavButton text="acceuil" link="/" />
+                <NavButton text="accueil" link="/" />
                 <NavButton text="veille" link="/" />
                 <NavButton text="projet" link="#project"/>
             </nav>
